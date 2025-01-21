@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://th.bing.com/th/id/R.6ea9fcaf23525b520425e3d01a8a0206?rik=LQV%2fFDtIAD5Nbg&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f03%2fDesktop-Wallpapers-feature.jpg&ehk=4wijKbINGVQ4uyrbrAV89twUASDfh%2byh7it%2bDFjEDCU%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keep background still during scroll */
+  color: #ffffff;
+  position: relative;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay */
+  z-index: -1; /* Ensure overlay is behind other content */
+}
+
+#header {
+  padding: 20px 0;
+}
+
+.container {
+  padding: 20px;
+}
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: transparent; /* Remove background color */
+  }
+  .logo {
+    width: 140px;
+  }
+
+  .image1{
+    margin-right: 100%;
+    padding: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    margin: 0 20px;
+  }
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #ff0051;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+
+  @keyframes slideInup {
+    from{
+      transform: translatey(-300px);
+    }
+
+    to{
+      transform: translateX(0);
+    }
+  }
+
+  .content{
+    animation-name: slideInup ;
+    animation-duration: 1s;
+    animation-timing-function: ;
+    animation-delay: ;
+    animation-iteration-count: ;
+    animation-direction: ;
+    animation-fill-mode: ;
+  }
+
+  .info{
+    padding: 500px;
+  }
+
+  .wiki{
+    font-size: 50px;
+    text-decoration: none;
+    padding-bottom: 50px;
+  }
+ 
+  .button{
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #ff4258;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow:0 5px 10px black ;
+    }
+    .button:active {
+      transform: scale(0.96);
+    }
+
+
+  section {
+    padding: 60px 0;
+    text-align: center;
+    background: transparent; /* Remove background color for sections */
+  }
+  section h2 {
+    margin-bottom
+
+  
+ 
+
